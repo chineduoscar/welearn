@@ -1,7 +1,9 @@
+const year = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <footer>
-      <h1>copyright 2026</h1>
+      <h1>copyright {year}</h1>
     </footer>
   );
 };

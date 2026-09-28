@@ -1,10 +1,6 @@
-import Header from "../component/Header";
-import Footer from "../component/Footer";
-
 const Contact = () => {
   return (
     <div>
-      <Header />
       <form>
         <h1>Contact Us</h1>
 
@@ -14,8 +10,6 @@ const Contact = () => {
 
         <button>Send</button>
       </form>
-
-      <Footer />
     </div>
   );
 };
